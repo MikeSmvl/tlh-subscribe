@@ -21,6 +21,7 @@ This was built using Python and the following packages:
 
 -   [requests](https://requests.readthedocs.io/en/master/)
 -   [yagmail](https://yagmail.readthedocs.io/en/latest/)
+-   [keyring](https://pypi.org/project/keyring/)
 
 <!-- GETTING STARTED -->
 
@@ -69,6 +70,18 @@ python keyring.py
 rm keyring.py
 ```
 
+-   Update sender, recipient and email title in [config.json](https://github.com/MikeSmvl/tlh-subscribe/blob/master/config.json)
+
+```js
+// config.json
+{
+    ...
+    "recipient": "your email here",
+    "sender": "your email here",
+    "emailTitle": "email title here"
+}
+```
+
 <!-- USAGE EXAMPLES -->
 
 ## Usage
@@ -78,7 +91,7 @@ rm keyring.py
 ```sh
 crontab -e
 # Run every 6 hours
-0 */6 * * * path/to/python subscriber.py
+0 */6 * * * path/to/python path/to/tlh-subscribe/subscriber.py
 ```
 
 <!-- ROADMAP -->
