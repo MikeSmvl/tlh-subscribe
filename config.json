@@ -1,0 +1,7 @@
+{
+    "baseUrl": "https://www.thelasthunt.com",
+    "queryUrl": "https://api-cache.searchspring.io/api/search/search.json?siteId=rlytfz&userId=QRN59TE5-30A8-CTAO-GO14-IEU1DTPH4DFF&domain=https://www.thelasthunt.com/collections/men/brands-patagonia&referer=https://www.thelasthunt.com&resultsFormat=native&method=search&format=json&resultLayout=grid&resultsPerPage=48&facebook=0&intellisuggest=1&filter.manufacturer=Patagonia&bgfilter.category_hierarchy=Men&sort.news_from_date=desc",
+    "recipient": "your email here",
+    "sender": "your email here",
+    "emailTitle": "email title here"
+}
