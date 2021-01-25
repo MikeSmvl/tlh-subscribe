@@ -52,8 +52,8 @@ pip install -r requirements.txt
 1. Create
 
 ```sh
-touch keyring.py
-vim keyring.py
+touch kr.py
+vim kr.py
 ```
 
 2. Write
@@ -66,8 +66,8 @@ yagmail.register('email', 'app/password')
 3. Run and delete
 
 ```sh
-python keyring.py
-rm keyring.py
+python kr.py
+rm kr.py
 ```
 
 -   Update sender, recipient and email title in [config.json](https://github.com/MikeSmvl/tlh-subscribe/blob/master/config.json)
